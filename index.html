@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Whack-a-Mole Game</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container text-center mt-5">
+        <h1 class="mb-4">Whack-a-Mole Game</h1>
+        <div class="score-timer mb-3">
+            <h3>Score: <span id="score">0</span></h3>
+            <h3>Time Left: <span id="time-left">30</span> seconds</h3>
+        </div>
+        <div class="game-board d-flex flex-wrap justify-content-center"></div>
+        <button id="start-btn" class="btn btn-primary mt-4">Start Game</button>
+    </div>
+
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+</html>
